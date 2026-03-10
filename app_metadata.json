@@ -1,0 +1,63 @@
+{
+  "appgroup_id": "69b0587344fe9d71f55fc931",
+  "appgroup_name": "Foobar Debug",
+  "apps": {
+    "foobar_debug": {
+      "app_id": "69b05862c2eb684e5bd1b8ae",
+      "name": "Foobar Debug",
+      "controls": {
+        "test_text": {
+          "identifier": "test_text",
+          "label": "Textfeld",
+          "type": "string",
+          "subtype": "text",
+          "fulltype": "string/text",
+          "description": "A string value not longer than 4000 characters (or `null`/`None`).",
+          "required": null,
+          "in_list": true,
+          "in_mobile_list": true,
+          "in_text": true,
+          "in_structured_search": false,
+          "in_fulltext_search": false,
+          "in_expert_search": true
+        },
+        "test_number": {
+          "identifier": "test_number",
+          "label": "Zahlenfeld",
+          "type": "number",
+          "subtype": null,
+          "fulltype": "number",
+          "description": "A decimal number value (or `null`/`None`).",
+          "required": null,
+          "in_list": true,
+          "in_mobile_list": true,
+          "in_text": true,
+          "in_structured_search": false,
+          "in_fulltext_search": false,
+          "in_expert_search": true,
+          "precision": null
+        },
+        "test_checkbox": {
+          "identifier": "test_checkbox",
+          "label": "Checkbox",
+          "type": "bool",
+          "subtype": null,
+          "fulltype": "bool",
+          "description": "A boolean value, i.e. `true` or `false` (or `null`/`None`).",
+          "required": null,
+          "in_list": true,
+          "in_mobile_list": false,
+          "in_text": false,
+          "in_structured_search": false,
+          "in_fulltext_search": false,
+          "in_expert_search": true
+        }
+      }
+    }
+  },
+  "metadata": {
+    "apps_list": [
+      "Foobar Debug"
+    ]
+  }
+}
